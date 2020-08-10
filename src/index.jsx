@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Declarative from './components/Declarative';
+import Info from './components/Info';
 
 ReactDOM.render(
   <div>
     <App />
-    <Declarative />
+    <Info />
   </div>,
   document.getElementById('root')
 );

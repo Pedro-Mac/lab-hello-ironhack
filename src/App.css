@@ -16,7 +16,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 
@@ -47,7 +47,7 @@
 
 .App-nav {
   padding-top: 2rem;
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   margin: auto;
