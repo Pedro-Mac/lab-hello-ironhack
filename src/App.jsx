@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 
 import './App.css';
 
@@ -7,10 +6,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <nav className="App-nav">
+          <img src="./images/ironhack-logo.svg" alt="ironhack-logo" />
+          <img src="./images/menu-top.svg" alt="menu-top" />
+        </nav>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <h1>Say hello to ReactJS</h1>
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            You will learn a Frontend framework from scratch, to become a Ninja
+            Developer.
           </p>
           <a
             className="App-link"
@@ -18,7 +22,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Awesome!
           </a>
         </header>
       </div>
